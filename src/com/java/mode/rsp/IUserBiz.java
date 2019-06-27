@@ -3,7 +3,6 @@ package com.java.mode.rsp;
 /**
  * @author cbf4Life cbf4life@126.com
  * I'm glad to share my knowledge with you all.
- * �û���Ϣ����
  */
 public interface IUserBiz {
 
