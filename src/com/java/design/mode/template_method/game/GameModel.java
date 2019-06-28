@@ -11,12 +11,18 @@ public abstract class GameModel {
 	public abstract void startNewPeriod();
 	/** * 启动期终子流程*/
 	public abstract void procPeriodEnd();
-	
+
 	public void run(){
 		this.gameInit();
 		this.startSale();
-		this.startSale();
-		this.startNewPeriod();
-		this.procPeriodEnd();
+		this.stopSale();
+		if(this.isNext()){
+			this.startNewPeriod();
+			this.procPeriodEnd();
+		}
+	}
+
+	protected boolean isNext(){
+		return true;
 	}
 }

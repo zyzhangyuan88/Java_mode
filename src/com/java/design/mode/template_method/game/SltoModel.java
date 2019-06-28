@@ -6,6 +6,9 @@ package com.java.design.mode.template_method.game;
  */
 
 public class SltoModel extends GameModel {
+
+	private boolean isNext;
+
 	@Override
 	public void gameInit() {
 		System.out.println("双色球初始状态");
@@ -29,5 +32,14 @@ public class SltoModel extends GameModel {
 	@Override
 	public void procPeriodEnd() {
 		System.out.println("双色球期终处理流程\n");
+	}
+
+	@Override
+	public boolean isNext() {
+		return  this.isNext;
+	}
+
+	public void setNext(boolean next) {
+		isNext = next;
 	}
 }

@@ -8,9 +8,10 @@ package com.java.design.mode.template_method.game;
 public class Client {
 
 	public static void main(String[] args) {
-		GameModel slto = new SltoModel();
+		SltoModel slto = new SltoModel();
+		slto.setNext(false);
 		slto.run();
-		
+
 		GameModel pck3 = new Pck3Model();
 		pck3.run();
 	}

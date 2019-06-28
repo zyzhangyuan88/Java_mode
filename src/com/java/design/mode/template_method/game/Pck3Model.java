@@ -6,6 +6,9 @@ package com.java.design.mode.template_method.game;
  */
 
 public class Pck3Model extends GameModel {
+
+
+
 	@Override
 	public void gameInit() {
 		System.out.println("3D初始状态");
@@ -29,5 +32,10 @@ public class Pck3Model extends GameModel {
 	@Override
 	public void procPeriodEnd() {
 		System.out.println("3D期终处理流程");
+	}
+
+	@Override
+	public boolean isNext() {
+		return true;
 	}
 }
