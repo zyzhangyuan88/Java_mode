@@ -11,8 +11,7 @@ public class Client {
 	public static void main(String[] args) {
 		subject = new RealSubject();
 		proxy = new DynamicProxy(subject);
-		String[] str = { "1111" };
-		proxy.exec("doSomething", str);
+		proxy.exec("doSomething", args);
 
 	}
 }
