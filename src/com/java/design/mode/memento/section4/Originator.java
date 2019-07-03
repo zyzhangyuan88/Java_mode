@@ -7,7 +7,7 @@ package com.java.design.mode.memento.section4;
 public class Originator {
 	
 	
-/*#com.company.memento.section4.Memento lnkMemento*/
+/*#com.java.design.memento.section4.Memento lnkMemento*/
 //内部状态
 	private String state = "";
 	

@@ -1,6 +1,6 @@
-package com.java.design.mode.command.section3;//package com.company.command.section3;
+package com.java.design.mode.command.section3;//package com.java.design.command.section3;
 //
-//import com.company.command.section4.ConcreteReciver1;
+//import com.java.design.command.section4.ConcreteReciver1;
 //
 //
 //
